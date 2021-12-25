@@ -1,0 +1,22 @@
+{
+  "name": "http-static-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "http-static-server",
+    "server",
+    "node",
+    "static"
+  ],
+  "author": "Eder Lima",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
