@@ -45,7 +45,7 @@ export default class StaticFileHandler {
    */
   static getMimeType(filePath) {
     const { ext: fileExtension } = path.parse(filePath)
-    return StaticFileHandler.MIME_TYPES[fileExtension]
+    return StaticFileHandler.MIME_TYPES[fileExtension] || 'text/plain'
   }
 
   /**
