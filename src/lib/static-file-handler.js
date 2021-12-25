@@ -19,6 +19,7 @@ export default class StaticFileHandler {
     '.pdf': 'application/pdf',
     '.doc': 'application/pdf',
     '.ico': 'image/x-icon',
+    '.wasm': 'application/wasm',
   }
 
   /**
