@@ -2,6 +2,10 @@
 
 A NodeJS server for serving static files within the file system. 📁
 
+## Preview
+
+![Static server demo](public/thumbnail.gif)
+
 ## Requirements 📖
 
 1. Node >= 14
